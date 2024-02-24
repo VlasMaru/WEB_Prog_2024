@@ -1,16 +1,15 @@
-version: "3.8"
+version: "3.8" # актуальная версия (на момент выполнения лабораторной)
 services:
-  web:
-    image: nginx:latest
-    ports:
-      - "8080:80"
+  web:  # название первого сервиса
+    image: nginx:latest # собранный образ с докера (последняя версия nginx)
+    ports: # порты
+      - "8080:80" # при введении нашего url и данного порта, мы должны попасть в наш сервис
     volumes:
-      - ./code:/code
-      - ./site.conf:/etc/nginx/conf.d/site.conf
+      - ./code:/code # монтируем папку "code"
+      - ./site.conf:/etc/nginx/conf.d/site.conf # монтируем site.conf (добавляет в католог, в котором nginx будет искать конфигурации файлов)
     links:
-      - php
-  php:
-    image: php:8-fpm
+      - php # связываем этот сервис с сервисом php (ниже)
+  php: # название второго сервиса
+    image: php:8-fpm # указываем версию образа php из официального репозитория (пусть 8-я)
     volumes:
-      - ./code:/code
-
+      - ./code:/code # монтируем папку "code"
