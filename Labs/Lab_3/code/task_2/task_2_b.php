@@ -9,7 +9,7 @@
 <body style="background-color: #3f9ea2;">
 <div>
     <h1 align="center"> Форма. Сессии и Куки.</h1>
-    <form action="task_b_resp.php" method="post">
+    <form action="task_2_b_resp.php" method="post">
         <label>
             Enter your surname:
             <input name="surname" type="text" placeholder="UR SURNAME HERE, HUMAN">

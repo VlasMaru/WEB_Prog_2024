@@ -6,7 +6,7 @@
     <title> TASK_2_A </title>
 </head>
 
-<body style="background-color: #3f9ea2;">
+<body style="background-color: #3f9ea2; ">
 <div>
     <h1 align="center"> Форма. Сессии и Куки.</h1>
     <form method="post">
