@@ -3,8 +3,6 @@
 
 <head>
     <meta charset="utf-8">
-    <meta lab_num = "Lab_3_task_2_a">
-    <meta cat = "Nyamba">
     <title> TASK_2_A </title>
 </head>
 
