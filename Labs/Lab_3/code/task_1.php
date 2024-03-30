@@ -18,6 +18,7 @@ echo '<h2> Part B </h2>';
 $input_sting_2 = 'c2a1t3';
 
 echo "<p>$input_sting_2</p>";
+
 $regular_exp_2 = '/([a-z])([0-9])/';
 $res_2 = array();
 $res_string = preg_replace_callback($regular_exp_2,
@@ -31,12 +32,12 @@ echo '<h1>Other tasks: </h1>';
 echo '<h2>Task 2: </h2>';
 
 
-echo "<a href='./task_2/task_2_a.php_a.php' >Task №2.A</a><br>";
+echo "<a href='./task_2/task_2_a.php' >Task №2.A</a><br>";
 
-echo "<a href='./task_2/task_2_a.php_b.php' >Task №2.B</a><br>";
+echo "<a href='./task_2/task_2_b.php' >Task №2.B</a><br>";
 
-echo "<a href='./task_2/task_2_a.php_c.php' >Task №2.C</a><br><br>";
+echo "<a href='./task_2/task_2_c.php' >Task №2.C</a><br><br>";
 
 echo '<h2>Task 3: </h2>';
 
-echo "<a href='task_3/task_3.php.' >Task №3</a>";
+echo "<a href='task_3/task_3.php' >Task №3</a>";
