@@ -1,0 +1,11 @@
+{
+    "name": "mari/code",
+    "autoload": {
+        "psr-4": {
+            "Mari\\Code\\": "src/"
+        }
+    },
+    "require": {
+        "google/apiclient": "2.15.0"
+    }
+}
