@@ -1,3 +1,18 @@
+<?php
+$categor = ['Smartphones', 'Other'];
+
+?>
+
+
+
+
+
+
+
+
+
+
+
 <!doctype html>
 <html lang = "en">
 <head>
@@ -82,3 +97,6 @@
 
 </body>
 </html>
+
+
+

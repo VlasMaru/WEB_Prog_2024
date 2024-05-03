@@ -13,5 +13,5 @@ services:
     image: php:8-fpm # указываем версию образа php из официального репозитория (пусть 8-я)
     volumes:
       - ./code:/code # монтируем папку "code"
-      - ./vendor:/var/www/html/vendor
+      #- ./vendor:/var/www/html/vendor
 
