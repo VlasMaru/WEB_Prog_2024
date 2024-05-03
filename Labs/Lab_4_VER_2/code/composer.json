@@ -1,0 +1,6 @@
+{
+    "name": "mari/code",
+    "require": {
+        "google/apiclient": "2.15.0"
+    }
+}
